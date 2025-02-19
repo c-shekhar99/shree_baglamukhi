@@ -1,0 +1,144 @@
+{   
+    "bookpooja": {
+        "text": "Book Pooja Now"
+    },
+
+    "header": {
+      "nav": {
+        "services": "Services",
+        "why_us": "Why Pandit Deepak Guruji?",
+        "gallery": "Gallery",
+        "history": "History of Temple"
+      }
+    },
+    "hero": {
+      "intro": "A trusted guide for your spiritual peace and prosperity.",
+      "title": "Transform your life with the blessings of Baglamukhi Mata.",
+      "description": "Pandit Deepak Guruji specializes in authentic Baglamukhi Mata puja, havan, and astrological consultations, helping you overcome obstacles, achieve success, and attain inner peace. Book your personalized puja today and experience divinity.",
+      "learn_more": "Learn More",
+      "background1": "🌟 10,000+ Successful Pujas Performed",
+        "background2": "📜 Authentic Vedic Practices",
+        "background3": "🕉️ Guidance by Experienced Pandit",
+        "background4": "🙏 Personalized Ceremonies for Your Needs",
+        "background5": "🔥 Powerful Rituals for Transformation",
+        "background6": "💫 Blessings for Peace, Prosperity, and Success",
+        "background7": "🔱 Guided by Expert Pandit",
+        "background8": "🛕 Trust of Traditional Practices"
+    },
+    "whyUs": {
+    "heading": "Why Pandit Deepak Guruji?",
+    "subHeading": "Mother Baglamukhi worshipper Pandit Deepak Guruji",
+    "cards": [
+      "24 x 7 / 365 Availability",
+      "Free Consultancy",
+      "Years of Experience",
+      "Best Results",
+      "Online Rituals & Consultation",
+      "Trusted by Devotees"
+    ]
+  },
+  "history": {
+    "tagline": "History of the temple",
+    "heading": "Baglamukhi Mata Temple, Nalkheda",
+    "paragraph1": "The Maa Baglamukhi Temple is a revered spiritual site dedicated to Goddess Bhagawati Maa Baglamukhi, known for her divine power to remove obstacles and grant victory. According to ancient beliefs, the temple is located on the banks of a sacred river, a place infused with spiritual energy that enhances meditation and devotion. It is said that worshipping here helps devotees overcome diseases, debts, and enemies, bringing peace and success. The temple has been a center of faith for centuries, attracting seekers of spiritual wisdom, protection, and divine intervention.",
+    "paragraph2": "The goddess is often depicted holding a weapon, symbolizing strength and triumph over negativity. The temple is especially significant in Tantra practices, as Maa Baglamukhi is one of the ten Mahavidyas, revered for her ability to control and still the negative forces in life. Devotees from across the country visit this sacred place to perform pujas, havans, and spiritual rituals, seeking divine blessings for success, protection, and inner peace. The temple continues to be a beacon of faith and devotion, where seekers experience a deep connection with the divine."
+  },
+  "guruji": {
+    "about": "About Guruji",
+    "heading": "Mother Baglamukhi worshipper Pandit Deepak Guruji",
+    "description": "Acharya Pandit Deepak Guruji is a very renowned scholar astrologer who knows a lot about a temple and some old books. He has helped many people with what he knows. Acharya Shri Deepak Guruji does special rituals to help people who do not have enough money or face troubles from bad people. He asks a powerful goddess named Maa Baglamukhi to help them."
+  },
+    "services": {
+    "heading": "Our Services",
+    "subheading": "Experience the power of authentic Vedic rituals, astrological guidance, and spiritual solutions to bring peace, prosperity, and success into your life.",
+    "button": "More Services",
+    "serviceDetails": [
+      {
+        "title": "Hawan & Rituals",
+        "description": "Purify your surroundings with sacred fire ceremonies"
+      },
+      {
+        "title": "Astrological Guidance",
+        "description": "Get personalized astrological advice for life solutions"
+      },
+      {
+        "title": "Laxmi Prapti",
+        "description": "Attract wealth, prosperity, and financial success"
+      },
+      {
+        "title": "Spell Removal",
+        "description": "Eliminate negative energies and black magic influences"
+      },
+      {
+        "title": "Destruction of Enemies",
+        "description": "Overcome obstacles created by enemies and negative forces"
+      },
+      {
+        "title": "Childbirth Blessings",
+        "description": "Seek divine grace for healthy and happy parenthood"
+      },
+      {
+        "title": "Vastu Dosh Shanti",
+        "description": "Balance energies in your home or office for harmony"
+      },
+      {
+        "title": "Business Growth Solutions",
+        "description": "Enhance success in business and career"
+      },
+      {
+        "title": "Navagrah Shanti",
+        "description": "Reduce malefic planetary effects for a peaceful life"
+      },
+      {
+        "title": "Mangal Dosha Nivaran Puja",
+        "description": "Remove marriage-related obstacles caused by Mangal Dosha"
+      },
+      {
+        "title": "Marital Harmony Rituals",
+        "description": "Strengthen relationships and resolve conflicts"
+      },
+      {
+        "title": "Pitra Dosh Remedy",
+        "description": "Remove ancestral karma and receive blessings"
+      }
+    ]
+  },
+  "callToAction": {
+    "heading": "Book Your Puja Today",
+    "subheading": "Experience the divine blessings of Maa Baglamukhi with personalized rituals and consultations by Pandit Deepak Guruji. Transform your life with peace, prosperity, and success."
+  },
+  "reviews": {
+    "heading": "Devotees' Testimonials",
+    "subheading": "Read what our satisfied devotees have to say about their experiences with Pandit Deepak Guruji and the transformative power of Baglamukhi Mata's blessings."
+  },
+  "gallery": {
+    "heading": "Temple & Pooja Gallery"},
+"mapTiming": {
+    "heading": "BaglaMukhi Mata Mandir Timings",
+    "templeHours": "Temple Hours: 5:00 AM - 9:00 PM (Open All Days)",
+    "morningAarti": "Morning Aarti: 6:00 AM",
+    "eveningAarti": "Evening Aarti: 7:00 PM",
+    "quote": "In the glow of the Aarti, let your worries fade and divine blessings light your path."
+  },
+  "footer": {
+    "description": "Experience the divine blessings of Baglamukhi Mata with Pandit Deepak Guruji. Book powerful pujas, havans, and astrological consultations to remove obstacles, attract success, and find inner peace.",
+    "quickLinks": {
+      "heading": "Quick Links",
+      "home": "Home",
+      "whyUs": "Why Us",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "contact": {
+      "heading": "Contact Us",
+      "phone": "+91 9669070816",
+      "email": "baglamukhimatamandir.com@gmail.com",
+      "location": "Near Jay Banna Kirana Store, Nalkheda, MP 465445"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    }
+  }
+}

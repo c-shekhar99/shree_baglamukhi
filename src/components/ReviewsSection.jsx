@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const ReviewsSection = () => {
   const reviews = [
@@ -29,13 +30,14 @@ const ReviewsSection = () => {
     },
   ];
 
+  const { t } = useTranslation();
   return (
     <section id="reviews" className="p-4 md:p-8 bg-[#FFFDF5]">
       <h2 className="text-left pt-8 text-3xl font-bold text-black mb-4">
-        Devotees' Reviews
+      {t("reviews.heading")}
       </h2>
       <p className="text-left pb-8 text-sm md:text-base">
-        Heartfelt experiences and blessings shared by devotees who have witnessed the divine guidance of Pandit Deepak Guruji.
+      {t("reviews.subheading")}
       </p>
 
       {/* Scrollable Reviews Container */}

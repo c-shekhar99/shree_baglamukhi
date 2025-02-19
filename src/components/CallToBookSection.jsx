@@ -1,6 +1,9 @@
 import BookPoojaButton from "./BookPoojaButton";
+import { useTranslation } from "react-i18next";
 
-const CallToBookSection = () => (
+const CallToBookSection = () => {
+  const { t } = useTranslation();
+  return(
   <section 
     id="call-to-book" 
     className="relative w-full h-[300px] md:h-[400px] flex flex-col justify-center items-center text-center text-white overflow-hidden"
@@ -21,10 +24,10 @@ const CallToBookSection = () => (
     {/* Section Content */}
     <div className="relative z-10 max-w-3xl p-4 md:p-6">
       <h2 className="text-3xl md:text-4xl font-bold drop-shadow-md">
-        Call and Book Pooja
+      {t("callToAction.heading")}
       </h2>
       <p className="text-base md:text-lg mt-2 drop-shadow-sm">
-        Remove obstacles and attract blessings with a personalized puja. Call now to book your sacred ritual!
+      {t("callToAction.subheading")}
       </p>
       <p className="text-xl md:text-2xl font-semibold mt-4 drop-shadow-lg">
         Call us at: +91 9669070816
@@ -34,6 +37,6 @@ const CallToBookSection = () => (
       </div>
     </div>
   </section>
-);
+);}
 
 export default CallToBookSection;

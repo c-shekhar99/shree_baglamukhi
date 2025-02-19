@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 const GallerySection = () => {
   // Strategic layout definition for balanced asymmetry
   const imageLayout = [
@@ -31,10 +33,11 @@ const GallerySection = () => {
     { src: "gallery/12.jpg", type: "jpg" },
   ];
 
+    const { t } = useTranslation(); 
   return (
     <section id="gallery" className="p-8 bg-gradient-to-b from-[#FFF9E6] to-[#FFFDF5]">
       <h2 className="text-3xl font-bold text-center mb-6 text-amber-800">
-        Temple & Pooja Gallery
+      {t("gallery.heading")}
       </h2>
 
       {/* Enhanced masonry grid with dense packing */}

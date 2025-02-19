@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import BookPoojaButton from "./BookPoojaButton";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { i18n, t } = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'hi' : 'en';
+    i18n.changeLanguage(newLang);
+  };
 
   return (
     <>
@@ -18,16 +25,16 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <a href="#services" className="text-gray-700 hover:text-amber-600">
-            Services
+          {t('header.nav.services')}
           </a>
           <a href="#why-us" className="text-gray-700 hover:text-amber-600">
-            Why Pandit Deepkaj Guruji?
+          {t('header.nav.why_us')}
           </a>
           <a href="#gallery" className="text-gray-700 hover:text-amber-600">
-            Gallery
+          {t('header.nav.gallery')}
           </a>
           <a href="#history" className="text-gray-700 hover:text-amber-600">
-            History of Temple
+          {t('header.nav.history')}
           </a>
         </nav>
 
@@ -42,6 +49,7 @@ const Header = () => {
             src="Group.svg"
             alt="Group Icon"
             className="w-[32px] bg-amber-100 p-2 rounded-lg hover:bg-amber-200"
+            onClick={toggleLanguage}
           />
           <BookPoojaButton />
         </div>
@@ -79,28 +87,28 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
               className="text-gray-700 hover:text-amber-600"
             >
-              Services
+              {t('header.nav.services')}
             </a>
             <a
               href="#why-us"
               onClick={() => setIsMenuOpen(false)}
               className="text-gray-700 hover:text-amber-600"
             >
-              Why Pandit Deepkaj Guruji?
+              {t('header.nav.why_us')}
             </a>
             <a
               href="#gallery"
               onClick={() => setIsMenuOpen(false)}
               className="text-gray-700 hover:text-amber-600"
             >
-              Gallery
+              {t('header.nav.gallery')}
             </a>
             <a
               href="#history"
               onClick={() => setIsMenuOpen(false)}
               className="text-gray-700 hover:text-amber-600"
             >
-              History of Temple
+              {t('header.nav.history')}
             </a>
             <div className="flex gap-4 mt-2">
               <img
@@ -112,6 +120,7 @@ const Header = () => {
                 src="Group.svg"
                 alt="Group Icon"
                 className="w-[32px] bg-amber-100 p-2 rounded-lg hover:bg-amber-200"
+                onClick={toggleLanguage}
               />
               <BookPoojaButton />
             </div>

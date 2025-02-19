@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import BookPoojaButton from "./BookPoojaButton";
 import BackgroundBorder from "./BackgroudBorder";
-
+import { useTranslation } from "react-i18next";
 const images = [
   "gallery/1.png",
   "gallery/2.jpg",
@@ -13,7 +13,10 @@ const images = [
   "gallery/9.jpg",
 ];
 
-const HeroSection = () => (
+const HeroSection = () => {
+
+  const { t } = useTranslation();
+  return (
   <section
     id="hero"
     className="w-full min-h-[85vh] flex flex-col md:flex-row text-left gap-8 overflow-hidden bg-[#FFFDF5]"
@@ -21,33 +24,30 @@ const HeroSection = () => (
     {/* Text Section */}
     <div className="flex-1 p-4 md:p-8">
       <p className="text-[#6b570b] p-2 text-sm">
-        A trusted guide for your spirtual peace and prosperity.
+      {t('hero.intro')}
       </p>
       <h1 className="text-2xl md:text-3xl font-bold font-medium">
-        Transform your life with the blessings of Baglamukhi Mata.
+      {t('hero.title')}
       </h1>
       <p className="text-[#74797b] pt-2 pb-8 text-sm md:text-base">
-        Pandit Deepak Guruji specializes in authentic Baglamukhi Mata puja, havan,
-        and astrological consultations, helping you overcome obstacles,
-        achieve success, and attain inner peace. Book your personalized puja
-        today and experience divinity.
+      {t('hero.description')}
       </p>
       <div className="flex gap-4 mt-4">
         <button className="font-medium text-sm w-28 h-11 flex justify-center items-center gap-2 px-4 py-3 rounded-lg border border-[#6b570b] bg-[#fffae8]">
-          Learn More
+        {t('hero.learn_more')}
         </button>
         <BookPoojaButton />
       </div>
       {/* Responsive BackgroundBorder Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 text-xs sm:text-sm gap-1">
-        <BackgroundBorder>🌟 10,000+ Successful Pujas Performed</BackgroundBorder>
-        <BackgroundBorder>📜 Authentic Vedic Practices</BackgroundBorder>
-        <BackgroundBorder>🕉️ Guidance by Experienced Pandit</BackgroundBorder>
-        <BackgroundBorder>🙏 Personalized Ceremonies for Your Needs</BackgroundBorder>
-        <BackgroundBorder>🔥 Powerful Rituals for Transformation</BackgroundBorder>
-        <BackgroundBorder>💫 Blessings for Peace, Prosperity, and Success</BackgroundBorder>
-        <BackgroundBorder>🔱 Guided by Expert Pandit</BackgroundBorder>
-        <BackgroundBorder>🛕 Trust of Traditional Practices</BackgroundBorder>
+      <BackgroundBorder>{t('hero.background1')}</BackgroundBorder>
+<BackgroundBorder>{t('hero.background2')}</BackgroundBorder>
+<BackgroundBorder>{t('hero.background3')}</BackgroundBorder>
+<BackgroundBorder>{t('hero.background4')}</BackgroundBorder>
+<BackgroundBorder>{t('hero.background5')}</BackgroundBorder>
+<BackgroundBorder>{t('hero.background6')}</BackgroundBorder>
+<BackgroundBorder>{t('hero.background7')}</BackgroundBorder>
+<BackgroundBorder>{t('hero.background8')}</BackgroundBorder>
       </div>
     </div>
 
@@ -93,7 +93,7 @@ const HeroSection = () => (
         </motion.div>
       </div>
     </div>
-  </section>
-);
+  </section>);
+};
 
 export default HeroSection;
