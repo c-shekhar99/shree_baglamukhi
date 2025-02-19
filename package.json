@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://c-shekhar99.github.io/shree_baglamukhi",
+  "homepage":"https://c-shekhar99.github.io/shree_baglamukhi/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
